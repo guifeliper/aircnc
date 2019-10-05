@@ -12,13 +12,14 @@ html, body, #root {
 }
 
 body {
-  background: #000 url('./assets/background.jpg');
+  background: #000 url('./assets/background.jpg') no-repeat;
   background-size: cover;
   -webkit-font-smoothing: antialiased !important;
 }
 
 body, input, button {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 
@@ -55,6 +56,12 @@ body, input, button {
   color: #444;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+.content form label span{
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
 }
 
 .content form input {
